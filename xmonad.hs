@@ -81,7 +81,9 @@ myNormalBorderColor  = mainColor5
 
 myStartupHook = do
     spawn "nitrogen --restore" 
-    spawn "compton &"
+    --spawn "picom &"
+    --spawn "setxkbmap -layout it"
+    --spawn "xrandr -s 1920x1080"
     --spawn "xfce4-terminal --title='nnn' --command=nnn"
     --spawn "xfce4-terminal --title='vtop' --command='vtop -t brew'"
 
